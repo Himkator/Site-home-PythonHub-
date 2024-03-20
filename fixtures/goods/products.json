@@ -6,9 +6,9 @@
             "name": "������ ������ � ��� �����",
             "slug": "chajnyj-stolik-i-tri-stula",
             "description": "�������� �� ��� ������� � ������������ ������ ��� ��������� �������.",
-            "image": "",
+            "image": "goods_images/set_of_tea_table_and_three_chairs_b2zirxh.jpg",
             "price": "150.00",
-            "discount": "0.00",
+            "discount": "10.00",
             "quantity": 10,
             "category": 3
         }
@@ -20,9 +20,9 @@
             "name": "������ ������ � ��� �����",
             "slug": "chajnyj-stolik-i-dva-stula",
             "description": "����� �� ����� � ���� ������� � ����������������� �����.",
-            "image": "",
+            "image": "goods_images/set_of_tea_table_and_two_chairs.jpg",
             "price": "93.00",
-            "discount": "0.00",
+            "discount": "10.00",
             "quantity": 30,
             "category": 3
         }
@@ -34,9 +34,9 @@
             "name": "������������ �������",
             "slug": "dvuhspalnaya-krovat",
             "description": "������� ������������ � ������������� � ������ ����� ������������.",
-            "image": "",
+            "image": "goods_images/double_bed.jpg",
             "price": "670.00",
-            "discount": "0.00",
+            "discount": "25.00",
             "quantity": 20,
             "category": 4
         }
@@ -48,9 +48,9 @@
             "name": "�������� ���� � ���������",
             "slug": "kuhonnyj-stol-s-rakovinoj",
             "description": "�������� ���� ��� ����� � ���������� ��������� � ��������.",
-            "image": "",
+            "image": "goods_images/kitchen_table.jpg",
             "price": "365.00",
-            "discount": "0.00",
+            "discount": "15.00",
             "quantity": 10,
             "category": 3
         }
@@ -62,9 +62,9 @@
             "name": "������������ ������",
             "slug": "prikrovatnyj-stolik",
             "description": "������, �������� �������� �� ���, �� �������� ��� ���������� ����� � ��������.",
-            "image": "",
+            "image": "goods_images/bedside_table.jpg",
             "price": "25.00",
-            "discount": "0.00",
+            "discount": "10.00",
             "quantity": 5,
             "category": 6
         }
@@ -76,9 +76,9 @@
             "name": "������ ���������������",
             "slug": "cvetok-stilizirovannyj",
             "description": "������������ ������ (�������� �������������) ��� ��������� ���������.",
-            "image": "",
+            "image": "goods_images/flower.jpg",
             "price": "15.00",
-            "discount": "0.00",
+            "discount": "1.00",
             "quantity": 20,
             "category": 5
         }
@@ -90,9 +90,9 @@
             "name": "��������",
             "slug": "rastenie",
             "description": "�������� ��� ��������� ������ ��������� ������� �������� � ������������� ����������.",
-            "image": "",
+            "image": "goods_images/plants.jpg",
             "price": "10.00",
-            "discount": "0.00",
+            "discount": "7.00",
             "quantity": 5,
             "category": 5
         }
@@ -104,9 +104,9 @@
             "name": "���� �������",
             "slug": "stul-ofisnyj",
             "description": "�������� ������, ��� �� ����� �� ��������, �� ��� ����, ��� ��� �������...",
-            "image": "",
+            "image": "goods_images/office_chair.jpg",
             "price": "30.00",
-            "discount": "0.00",
+            "discount": "3.00",
             "quantity": 20,
             "category": 7
         }
@@ -118,9 +118,9 @@
             "name": "������� ����� ��� ���������",
             "slug": "uglovoj-divan-dlya-gostinnoj",
             "description": "������� �����, �������������� � ������������ �������, ��� ��������� � ������ ������ ����� ��!",
-            "image": "",
+            "image": "goods_images/corner_sofa.jpg",
             "price": "410.00",
-            "discount": "0.00",
+            "discount": "15.00",
             "quantity": 5,
             "category": 4
         }
