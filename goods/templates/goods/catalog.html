@@ -42,6 +42,13 @@
         </form>
     </div>
 
+    {% if request.GET.q %}
+    <h3 class="mt-4">Result {{request.GET.q}}</h3>
+    {% if not goods %}
+    <h3 class="mt-4">We dont have Result</h3>
+    {% endif %}
+    {% endif %}
+
     {% for good in goods %}
         <!-- Карта товара -->
         <div class="col-lg-4 col-md-6 p-4">
@@ -53,9 +60,9 @@
                 {% endif %}
                 <div class="card-body">
                     <a href="{% url "catalog:product" good.slug %}">
-                        <p class="card-title">{{ good.name }}</p>
+                        <p class="card-title">{% autoescape off %}{% if good.headline %}{{ good.headline }}{% else %}{{ good.name }}{% endif %}{% endautoescape %}</p>
                     </a>
-                    <p class="card-text">{{ good.description|truncatechars:50 }}</p>
+                    <p class="card-text">{% autoescape off %}{% if good.bodyline %}{{ good.bodyline|truncatechars:100 }}{% else %}{{ good.description|truncatechars:50 }}{% endif %}{% endautoescape %}</p>
                     <p class="product_id">id: {{ good.display_id }}</p>
                     <div class="d-flex justify-content-between">
                         {% if good.discount %}
@@ -78,7 +85,8 @@
 
 </div>
 <!-- Пагинация -->
-    <nav aria-label="Page navigation example">
+{% if goods %}
+<nav aria-label="Page navigation example">
     <ul class="pagination justify-content-center my-4">
         <div class="custom-shadow d-flex">
             <li class="page-item {% if not goods.has_previous %}disabled{% endif %}">
@@ -103,5 +111,6 @@
             </li>
         </div>
     </ul>
-    </nav>
+</nav>
+{% endif %}
 {% endblock content %}
