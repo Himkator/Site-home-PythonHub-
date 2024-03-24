@@ -36,7 +36,7 @@ class Products(models.Model):
     category=models.ForeignKey(to=Categories, on_delete=models.CASCADE, verbose_name='Category')
     
     def __str__(self) -> str:
-        return self.name
+        return self.name+" "+str(self.id)
 
     class Meta:
         db_table='product'
